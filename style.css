@@ -1,6 +1,10 @@
+body {
+    padding: 80px;
 
+}
 h1{
     font-size: 2em;
+    text-align: center;
 }
 
 body{
@@ -9,11 +13,14 @@ body{
 }
 
 #pessoais{
-    font-family:monospace;
-   
+   font-family:monospace;
+   position: absolute;
+   top: 20px;
+   right: 100px;
+    
 }
 
-.interacao{
+#interacao{
     font-family: times;
     font-size: 20px;
 }
@@ -28,14 +35,17 @@ body{
 }
 #minha-foto {
     float: left;
-    height: 200px;
-
+    height: 180px;
+    padding: 10px;
+background-color: aliceblue;
 }
 .image-container {
     height: 200px;
+    position: relative;
+   
+}
+ul li:nth-child(odd) {
+background-color: beige;
 }
 
-div {
-    border: 2px solid rgb(70, 0, 128);
-}
 
